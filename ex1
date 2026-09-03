@@ -1,0 +1,7 @@
+class student:
+    def int (self)
+    self.name = name
+    self.age = age
+    s1 = student ("KPRIT",15)
+    S1.read()
+    s1.write()
