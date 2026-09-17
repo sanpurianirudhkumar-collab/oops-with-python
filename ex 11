@@ -1,0 +1,17 @@
+class Father:
+    def show_father(self):
+        print("I am Father")
+
+class Mother:
+    def show_mother(self):
+        print("I am Mother")
+
+class Son(Father, Mother):
+    def show_son(self):
+        print("I am Son")
+
+obj = Son()
+
+obj.show_father()
+obj.show_mother()
+obj.show_son()
